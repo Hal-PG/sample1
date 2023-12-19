@@ -1,0 +1,82 @@
+/* Reset CSS */
+body, h1, h2, h3, p, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ページ全体 */
+body {
+    background-color: #f4f4f4; /* 背景色 - ライトグレー */
+    color: #333; /* テキストカラー - ダークグレー */
+    line-height: 1.6;
+}
+
+/* ヘッダー */
+header {
+    background-color: #8cb369; /* ヘッダー背景色 - 緑 */
+    padding: 20px;
+    text-align: center;
+    color: #fff; /* ヘッダーテキストカラー - 白 */
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* メインセクション */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* フッター */
+footer {
+    background-color: #5c9ead; /* フッター背景色 - ブルー */
+    padding: 20px;
+    text-align: center;
+    color: #fff; /* フッターテキストカラー - 白 */
+}
+
+/* ナビゲーション */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* ナビゲーションリンクカラー - 白 */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* フォーム */
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #8cb369; /* ボタンの背景色 - 緑 */
+    color: #fff; /* ボタンのテキストカラー - 白 */
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #5c9ead; /* ホバー時の背景色 - ブルー */
+}
